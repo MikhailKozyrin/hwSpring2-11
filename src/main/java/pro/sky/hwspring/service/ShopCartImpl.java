@@ -1,10 +1,12 @@
 package pro.sky.hwspring.service;
 
+import org.springframework.stereotype.Service;
 import pro.sky.hwspring.model.ShopCart;
 
 import javax.annotation.PostConstruct;
 import java.util.Set;
 
+@Service
 public class ShopCartImpl implements ShopCartService {
     private final ShopCart shopCart;
 
